@@ -1,1 +1,3 @@
 - src: arnobirchler.ssh-access
+- src: arnobirchler.tools
+- src: arnobirchler.docker

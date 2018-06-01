@@ -8,3 +8,9 @@
   - name: Install User & SSH
     include_role:
       name: arnobirchler.ssh-access
+  - name: Install Tools
+    include_role:
+      name: arnobirchler.tools
+  - name: Install Docker
+    include_role:
+      name: arnobirchler.docker
