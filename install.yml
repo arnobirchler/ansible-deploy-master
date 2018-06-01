@@ -1,0 +1,10 @@
+- name: Server deployment
+  hosts: all
+  remote_user: root
+  
+  tasks:
+  - include_vars:
+      file: vars.yml
+  - name: Install User & SSH
+    include_role:
+      name: arnobirchler.ssh-access

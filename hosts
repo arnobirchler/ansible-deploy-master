@@ -1,0 +1,7 @@
+[master]
+192.168.84.131
+
+[master:vars]
+ansible_connection=ssh
+ansible_ssh_user=root
+ansible_ssh_pass=16101997ab
